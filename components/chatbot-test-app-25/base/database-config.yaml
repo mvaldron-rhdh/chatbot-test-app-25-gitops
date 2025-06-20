@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-test-app-25-database-config
+data:
+  VECTORDB_HOST: "chatbot-test-app-25-database"
+  VECTORDB_PORT: ""

@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: chatbot-test-app-25-gitops-repository
+spec:
+  url: https://github.com/mvaldron-rhdh/chatbot-test-app-25-gitops
